@@ -2838,7 +2838,8 @@ button:disabled {
   font-size: 18px;
 }
 .popup-body .dl-list dt {
-  margin-right: 30px;
+  width: 80px;
+  margin-right: 15px;
   font-weight: 700;
   color: #283F45;
 }
@@ -3039,6 +3040,9 @@ button:disabled {
   }
   .popup-body .dl-list dt, .popup-body .dl-list dd {
     font-size: 14px;
+  }
+  .popup-body .dl-list dt {
+    width: 60px;
   }
   .popup-body .dl-list dd.auto input[type=text] {
     width: 100% !important;
