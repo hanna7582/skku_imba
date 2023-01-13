@@ -538,6 +538,8 @@
           spaceBetween: 30,
           touchRatio: 1,
           clickable: true,
+          observer: true,
+          observeParents: true,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -556,6 +558,7 @@
       }
       initSwiper()
       let swiper = $('.accordion-item:nth-child(1) .swiper')[0].swiper
+      console.log('초기 swiper', swiper)
 
       $('.btn-toggle').on('click', function () {
         var state = $(this).hasClass('open')

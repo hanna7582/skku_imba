@@ -618,10 +618,11 @@ caption,
 }
 
 .flag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 72px;
   height: 32px;
-  line-height: 32px;
   border-radius: 6px;
   font-size: 1.6rem;
   text-align: center;
@@ -3426,6 +3427,7 @@ button:disabled {
     background-repeat: no-repeat;
     background-position: right 20px center;
     background-size: 14px 8px;
+    color: #777777;
   }
   .sub-nav .nav .select-menu.depth2 .selected {
     background-image: url("../images/icon/icon-nav-depth2-arrow.png");
