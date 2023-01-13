@@ -575,6 +575,7 @@ body {
   height: 90px;
   border-radius: 50%;
   background: #EEEEEE url(../images/icon/icon-plus.png) center no-repeat;
+  background-size: 50%;
 }
 .class-list {
   position: relative;
