@@ -3974,6 +3974,13 @@ button:disabled {
   .box-list-header .title {
     font-size: 1.6rem;
   }
+  .box-list-header.type2 {
+    height: auto;
+    display: block;
+  }
+  .box-list-header.type2 .title {
+    margin-bottom: 10px;
+  }
   .box-list .item.type1 {
     padding: 10px;
   }
