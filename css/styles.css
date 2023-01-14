@@ -3314,7 +3314,7 @@ button:disabled {
     width: 100%;
   }
   .box-list .item.type3 .text-group .label-group .label {
-    line-height: 30px;
+    line-height: 32px;
   }
   .box-list .item.type3 .btn-group [class^=btn-] {
     width: 120px;
@@ -3369,7 +3369,7 @@ button:disabled {
     margin: 0 10px 0 0;
   }
   .box-list .detail .title-area .label-group .label {
-    line-height: 30px;
+    line-height: 32px;
   }
   .box-list .detail .dl-list {
     display: block;
