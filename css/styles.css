@@ -3314,7 +3314,7 @@ button:disabled {
     width: 100%;
   }
   .box-list .item.type3 .text-group .label-group .label {
-    padding-top: 1px;
+    padding-top: 2px;
   }
   .box-list .item.type3 .btn-group [class^=btn-] {
     width: 120px;
@@ -3510,6 +3510,9 @@ button:disabled {
   }
   .sub-nav .nav .learning-support ul {
     text-align: right;
+  }
+  .board-detail .text-group .label-group .label {
+    padding-top: 2px;
   }
   .message-box .nav {
     position: absolute;
