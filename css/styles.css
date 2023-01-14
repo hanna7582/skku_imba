@@ -3511,6 +3511,9 @@ button:disabled {
   .sub-nav .nav .learning-support ul {
     text-align: right;
   }
+  .board-list2 .item .link-area .flag {
+    padding-top: 0;
+  }
   .board-detail .text-group .label-group .label {
     padding-top: 2px;
   }
